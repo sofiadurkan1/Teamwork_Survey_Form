@@ -1,0 +1,26 @@
+body{
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+#name{
+    border-color: aqua;
+}
+#first-radio{
+    background-color: black;
+    color: white;
+}
+#feedback{
+    color: black;
+    resize: none;
+    overflow-wrap: break-word;
+    padding: 2px;
+
+    
+    
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+
+}

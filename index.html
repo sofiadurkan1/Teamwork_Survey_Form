@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Clarusway Survey</title>
+  </head>
+  <hr>
+
+  <body>
+    <div id="form-container">
+      <header id="form-header">
+        <h1 id="form-title">Clarusway Survey Form</h1>
+        <h3 id="form-description">
+          Thank you for taking the time to help us improve the platform
+        </h3>
+      </header>
+    </div>
+    <section>
+      <div id="input-box">
+        <label for="name">Name</label>
+        <br />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <br />
+      <div id="input-box">
+        <label for="sname">Surname</label>
+        <br />
+        <input
+          type="text"
+          name="sname"
+          id="sname"
+          placeholder="Enter Your Surname"
+        />
+      </div>
+      <br />
+      <div id="input-box">
+        <label for="email">Email</label>
+        <br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          placeholder="user@clarusway.com"
+        />
+      </div>
+      <br />
+
+      <h3>Which option best describes your current role?</h3>
+
+      <div class="input-box">
+        <label for="current">Select you current role</label>
+        <br />
+        <select name="current" id="dropdown">
+          <option value="teacher">Teacher</option>
+          <option value="mentor">Mentor</option>
+          <option value="student">Student</option>
+          <option value="Helpdesk">Help Desk</option>
+        </select>
+      </div>
+      <h3>Would you recommend Clarusway to a friend?</h3>
+      <div class="input-box">
+        <input
+          type="radio"
+          name="recommend"
+          id="first-radio"
+          value="Definitly,Yes"
+          checked
+        />
+        <label for="first-radio">Definitly,Yes</label><br /><br />
+        <input type="radio" name="recommend" id="second-radio" value="Maybe" />
+        <label for="second-radio">Maybe</label><br /><br />
+        <input
+          type="radio"
+          name="recommend"
+          id="third-radio"
+          value="Not sure"
+        />
+        <label for="third-radio">Not sure</label><br /><br />
+        <input
+          type="radio"
+          name="recommend"
+          id="fourth-radio"
+          value="Definitly,No"
+        />
+        <label for="fourth-radio">Definitly,No</label>
+      </div>
+      <h3>What is your favorite feature of Clarusway?</h3>
+      <div class="input-box">
+        <label for="favorite">Select a option</label>
+        <br />
+        <select name="favorite" id="favorite">
+          <option value="Helpful">Helpful</option>
+          <option value="Creative">Creative</option>
+          <option value="Fast">Fast</option>
+          <option value="Professional">Professional</option>
+        </select>
+        <h3>What would you like to see improved?(Check all that apply)</h3>
+        <div class="input-box">
+          <input
+            type="checkbox"
+            name="check1"
+            id="first-check"
+            value="Front-end Projects"
+          />
+          <label for="first-check">Front-end Projects</label><br />
+          <input
+            type="checkbox"
+            name="check2"
+            id="second-check"
+            value="Back-end Projects"
+          />
+          <label for="second-check">Back-end Projects</label><br />
+          <input
+            type="checkbox"
+            name="check3"
+            id="third-check"
+            value="Data Science"
+          />
+          <label for="third-check">Data Science</label><br />
+          <input
+            type="checkbox"
+            name="check4"
+            id="fourth-check"
+            value="Additional Courses"
+          />
+          <label for="fourth-check">Additional Courses</label>
+        </div>
+        <h3>Any comments or suggestions?</h3>
+        <div id="input-box">
+          <textarea
+            name="message"
+            id="feedback"
+            cols="20"
+            rows="2"
+            placeholder="Enter your comment here..Thanks for you...balabalabla bal"
+           
+            
+          ></textarea>
+        </div>
+        <div id="form-submit">
+          <button type="submit" id="form-button">Submit</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
